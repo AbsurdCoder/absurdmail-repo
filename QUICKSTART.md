@@ -67,8 +67,8 @@ Visit http://localhost:3000
 3. **Create `.env`:**
 
 ```env
-MONGODB_URI=mongodb+srv://user:pass@cluster.mongodb.net/absurdlabs
-REDIS_URL=redis://default:pass@host:port
+MONGODB_URI=mongodb+srv://@cluster.mongodb.net/absurdlabs
+REDIS_URL=redis://@host:port
 JWT_SECRET=$(openssl rand -base64 32)
 # ... rest of config
 ```
