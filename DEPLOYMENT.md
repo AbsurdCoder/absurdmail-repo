@@ -34,7 +34,7 @@ Complete guide for deploying AbsurdLabs to Google Cloud Platform.
    - Choose "Connect your application"
    - Copy the connection string
    - Replace `<password>` with your database password
-   - Example: `mongodb+srv://admin:password@cluster0.xxxxx.mongodb.net/absurdlabs`
+   - Example: `mongodb+srv:///absurdlabs`
 
 ## Step 2: Setup Redis Cloud
 
