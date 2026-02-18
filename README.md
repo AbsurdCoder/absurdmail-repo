@@ -78,10 +78,10 @@ Edit `.env` with your credentials:
 
 ```env
 # MongoDB Atlas connection string
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/absurdlabs
+MONGODB_URI=mongodb+srv://@cluster.mongodb.net/als
 
 # Redis Cloud connection string
-REDIS_URL=redis://username:password@host:port
+REDIS_URL=redis://@host:port
 
 # Generate a strong secret: openssl rand -base64 32
 JWT_SECRET=your-super-secret-jwt-key
